@@ -37,6 +37,9 @@ If you find any bugs, have feedback or have questions, please feel free to conta
 This Calculator was not developed by me and the text in this Readme was heavily inspired by [![Open AI: ChatGPT](https://d2426xcxuh3ht5.cloudfront.net/39jXeQXJRQ6glthozzzq_what-is-chatgpt.png)](https://chat.openai.com/share/014b11f3-5a7c-4111-a548-825dd122b7c6)
 and pictures/icons were found on the Internet. If you press the image above you will see the ChatGPT Prompt I made for this Readme.
 
+[GitHub](https://github.com/Matostruct) <br>
+[University](https://www.fh-joanneum.at/)
+
 ### Verlinkung
 - [Exercise1](./exercise1.md)
 - [Exercise2](./exercise2.md)

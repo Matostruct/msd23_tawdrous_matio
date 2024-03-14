@@ -33,7 +33,9 @@ Once you started the Calculator, follow these steps to perform arithmetic operat
 ## How to Contribute
 If you find any bugs, have feedback or have questions, please feel free to contact me via [E-Mail](mailto:matio.tawdrous%40edu.fh-joanneum.at)
 
-
+## Author Information
+This Calculator was not developed by me and the text in this Readme was heavily inspired by [![Open AI: ChatGPT](https://d2426xcxuh3ht5.cloudfront.net/39jXeQXJRQ6glthozzzq_what-is-chatgpt.png)](https://chat.openai.com/share/014b11f3-5a7c-4111-a548-825dd122b7c6)
+and pictures/icons were found on the Internet. If you press the image above you will see the ChatGPT Prompt I made for this Readme.
 
 [GitHub](https://github.com/Matostruct) <br>
 [University](https://www.fh-joanneum.at/)

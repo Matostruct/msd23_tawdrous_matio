@@ -37,3 +37,10 @@ ___
 1. In <code>pom.xml</code> den <code>maven.compiler</code> hinzufügen mit aktueller Version: 3.13.0 Release: 17
 2. Progamm builden über Konsole: <code>mvn compile</code>
    <img src="/resources/images/ex3_2.png" alt="screenshot of the successful maven build">
+3. Push to git
+___
+### 4. Maven Exec
+___
+1. Neues plugin in pom.xml hinzufügen und in der \<mainClass>com.example.Main\</mainClass> zu Main ändern.
+2. <code>mvn exec:java</code> ausführen
+   <img src="/resources/images/ex3_3.png" alt="screenshot of the successful maven exec">

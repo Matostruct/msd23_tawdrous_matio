@@ -24,7 +24,7 @@ ___
    </ul>
 2. Java Klasse <code>Main</code> erstellen und Methoden testen.
 3. Ausführen und den neuen Order <i>target</i> anschauen:
-   <img src="/resources/images/ex3_1.png" alt="screenshot of the target folder" style="width: 500px"/>
+   <img src="/resources/images/ex3_1.png" alt="screenshot of the target folder"/><br>
    In diesem Order sind zwei weitere Ordner: <i>classes</i> und <i>generated-sources</i>
    <br>
    In Classes sind die zwei Klassen <code>Calculator</code> und <code>Main</code> drinnen als .class file
@@ -36,11 +36,11 @@ ___
 
 1. In <code>pom.xml</code> den <code>maven.compiler</code> hinzufügen mit aktueller Version: 3.13.0 Release: 17
 2. Progamm builden über Konsole: <code>mvn compile</code>
-   <img src="/resources/images/ex3_2.png" alt="screenshot of the successful maven build">
+   <img src="/resources/images/ex3_2.png" alt="screenshot of the successful maven build"><br>
 3. Push to git
 ___
 ### 4. Maven Exec
 ___
 1. Neues plugin in pom.xml hinzufügen und in der \<mainClass>com.example.Main\</mainClass> zu Main ändern.
 2. <code>mvn exec:java</code> ausführen
-   <img src="/resources/images/ex3_3.png" alt="screenshot of the successful maven exec">
+   <img src="/resources/images/ex3_3.png" alt="screenshot of the successful maven exec"><br>

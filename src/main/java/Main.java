@@ -11,5 +11,9 @@ public class Main {
         System.out.println("Minus: " + c.minus(2,2));
         System.out.println("Multiply: " + c.multiply(3,3));
         System.out.println("Divide: " + c.divide(4,4));
+
+        System.out.println("-------------------------------------");
+        System.out.println("Matio Tawdrous");
+        System.out.println("-------------------------------------");
     }
 }

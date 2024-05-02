@@ -177,7 +177,7 @@ public class CalculatorTest {
     }
     @Test
     public void testFactorialNegative() {
-        assertEquals(-5, calculator.factorial(-5));
+        assertEquals(0, calculator.factorial(-5));
         System.out.println("Test Factorial Negative");
         System.out.println("(-5)! = 0");
     }

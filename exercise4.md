@@ -75,5 +75,11 @@ ___
 6. Die Testmethode `testFactorialNegative` testet die Methode `factorial` mit einer negativen Zahl.
 Diese Testmethoden sollen jetzt fehlschlagen, da die Methode `factorial` noch nicht implementiert wurde.
 <img src="./resources/images/ex4_2.png" alt="Screenshot der fehlgeschlagenen Tests"></img>
-
+___
+### 5. Implementierung der Methode `factorial`
+___
+1. Die Methode `factorial` wird implementiert und gibt die Fakturielle der Zahl `n` zurück.
+2. Die Methode wird in der Klasse `CalculatorTest` getestet und sollte jetzt erfolgreich sein.
+3. Die Testmethoden `testFactorial`, `testFactorialZero` und `testFactorialNegative` sollten jetzt erfolgreich sein.
+___
 

@@ -19,7 +19,10 @@ public class Calculator {
     public double divide (double number1, double number2) {
         return number2 != 0 ? number1 / number2 : -999999999;
     }
-    public double factorial (double number) {
-        return 0;
+    public int factorial (int number) {
+        if (number < 0) {
+            return 0;
+        }
+        return number == 0 ? 1 : number * factorial(number - 1);
     }
 }

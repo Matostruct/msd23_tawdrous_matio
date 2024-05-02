@@ -1,6 +1,6 @@
 /**
  * msd23_tawdrous_matio
- * <Description>
+ * This is the main class that will run the calculator
  * Author: Matio
  * Last Change: 18.04.2024
  */

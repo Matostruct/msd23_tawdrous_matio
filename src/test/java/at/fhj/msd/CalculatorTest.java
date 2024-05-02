@@ -162,4 +162,23 @@ public class CalculatorTest {
         System.out.println("Test Divide Negative By Zero");
         System.out.println("(-6) / 0 = -999999999 --> should be error");
     }
+
+    @Test
+    public void testFactorial() {
+        assertEquals(120, calculator.factorial(5));
+        System.out.println("Test Factorial");
+        System.out.println("5! = 120");
+    }
+    @Test
+    public void testFactorialZero() {
+        assertEquals(1, calculator.factorial(0));
+        System.out.println("Test Factorial Zero");
+        System.out.println("0! = 1");
+    }
+    @Test
+    public void testFactorialNegative() {
+        assertEquals(-5, calculator.factorial(-5));
+        System.out.println("Test Factorial Negative");
+        System.out.println("(-5)! = 0");
+    }
 }

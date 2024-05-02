@@ -65,4 +65,15 @@ ___
 ### 3. Screenshot des Testruns mit Coverage:
 <img src="./resources/images/ex4_1.png" alt="Screenshot of the tests run with Coverage"></img>
 ___
+### 4. Fakturielle Methode
+___
+1. In der Klasse `Calculator` wird eine neue Methode `factorial` erstellt.
+2. Die Methode `factorial` bekommt einen Parameter `n` übergeben und gibt vorerst 0 zurück.
+3. In der Klasse `CalculatorTest` wird eine neue Testmethode `testFactorial`, `testFactorialZero` und `testFactorialNegative` erstellt.
+4. Die Testmethode `testFactorial` testet die Methode `factorial` mit einer positiven Zahl.
+5. Die Testmethode `testFactorialZero` testet die Methode `factorial` mit der Zahl 0.
+6. Die Testmethode `testFactorialNegative` testet die Methode `factorial` mit einer negativen Zahl.
+Diese Testmethoden sollen jetzt fehlschlagen, da die Methode `factorial` noch nicht implementiert wurde.
+<img src="./resources/images/ex4_2.png" alt="Screenshot der fehlgeschlagenen Tests"></img>
+
 

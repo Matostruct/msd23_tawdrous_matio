@@ -1,3 +1,5 @@
+package at.fhj.msd;
+
 /**
  * msd23_tawdrous_matio
  * This is the main class that will run the calculator

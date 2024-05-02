@@ -1,3 +1,5 @@
+package at.fhj.msd;
+
 /**
  * msd23_tawdrous_matio
  * This is a simple Calculator Class

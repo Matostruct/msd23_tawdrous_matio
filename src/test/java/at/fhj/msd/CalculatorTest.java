@@ -3,6 +3,7 @@ package at.fhj.msd;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 /**
  * msd23_tawdrous_matio
@@ -146,21 +147,18 @@ public class CalculatorTest {
     }
     @Test
     public void testDivideByZero() {
-        assertEquals(-999999999, calculator.divide(6, 0));
+        assertThrows(ArithmeticException.class, () -> calculator.divide(6, 0));
         System.out.println("Test Divide By Zero");
-        System.out.println("6 / 0 = -999999999 --> should be error");
     }
     @Test
     public void testDivideZeroByZero() {
-        assertEquals(-999999999, calculator.divide(0, 0));
+        assertThrows(ArithmeticException.class, () -> calculator.divide(0, 0));
         System.out.println("Test Divide Zero By Zero");
-        System.out.println("0 / 0 = -999999999 --> should be error");
     }
     @Test
     public void testDivideNegativeByZero() {
-        assertEquals(-999999999, calculator.divide(-6, 0));
+        assertThrows(ArithmeticException.class, () -> calculator.divide(-6, 0));
         System.out.println("Test Divide Negative By Zero");
-        System.out.println("(-6) / 0 = -999999999 --> should be error");
     }
 
     @Test
